@@ -1,16 +1,21 @@
 <template>
   <div id="app">
     <life-cycle-example></life-cycle-example>
+    <show-info></show-info>
+    <template-fun></template-fun>
   </div>
 </template>
 
 <script>
-import LifeCycleExample from './components/LifecycleExample.vue'
-
+import LifeCycleExample from '@/components/LifecycleExample.vue'
+import ShowInfo from '@/components/ShowInfo.vue'
+import TemplateFun from '@/components/TemplateFun.vue'
 export default {
   name: 'App',
   components: {
-    LifeCycleExample
+    LifeCycleExample,
+    ShowInfo,
+    TemplateFun,
   }
 }
 </script>
